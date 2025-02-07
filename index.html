@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница Minecraft</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: url('img/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            height: 100vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: rgba(33, 33, 33, 0.8);
+            color: #00C8FF;
+            font-size: 18px;
+            border-bottom: 2px solid #00C8FF;
+            animation: fadeIn 1s ease-out;
+        }
+
+        nav {
+            margin-left: auto;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #00C8FF;
+            margin-left: 20px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            animation: fadeIn 1s ease-out;
+        }
+
+        nav a:hover {
+            color: #00FFEF;
+            text-decoration: underline;
+        }
+
+        main {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: rgba(48, 48, 48, 0.7);
+            margin-top: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+            padding-bottom: 50px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .highlight-text {
+            color: #FFD700; /* Новый цвет текста (золотой) */
+        }
+
+        footer {
+            background-color: rgba(33, 33, 33, 0.8);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            border-top: 2px solid #00C8FF;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .download-button,
+        .donate-button,
+        .buy-pass-button {
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .download-button {
+            background-color: #FF8C00;
+        }
+
+        .download-button:hover {
+            background-color: #FF7F32;
+        }
+
+        .donate-button {
+            background-color: #FFD700;
+        }
+
+        .donate-button:hover {
+            background-color: #FFC300;
+        }
+
+        .buy-pass-button {
+            background-color: #32CD32;
+        }
+
+        .buy-pass-button:hover {
+            background-color: #28A745;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="icon">
+            <img src="img/diktafon.jpg" alt="Новая иконка" style="width: 50px; border-radius: 50%;">
+        </div>
+        <nav>
+            <a href="" data-aos="fade-right">Главная</a>
+            <a href="https://web.telegram.org/a/#1407239406" target="_blank" data-aos="fade-left">Контакт с нами</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="highlight-text" data-aos="fade-up">The Age of Technomagic</h1>
+        <p class="highlight-text" data-aos="fade-up" data-aos-delay="200">Cоздавай уникальную атмосферу для твоих приключений в Minecraft! Сборка "The Age of Technomagic" – это идеальный баланс между футуристическими технологиями и мощными магическими силами. Создавай удивительные механизмы и исследуй мир, наполненный загадками и возможностями.</p>
+        <p class="highlight-text" data-aos="fade-up" data-aos-delay="400"><strong>Особенности сборки:</strong></p>
+        <ul class="highlight-text" data-aos="fade-up" data-aos-delay="600">
+            <li>Магия и технологии: освоение как магических искусств, так и передовых технологий для создания мощных механизмов и артефактов.</li>
+            <li>Уникальные предметы: новые магические предметы и технологические устройства, которые сделают твоё выживание и исследования ещё более увлекательными.</li>
+            <li>Магические существа и технологии: встречай новых существ, освоивших как магию, так и механизмы, и использующих их в своих целях.</li>
+            <li>Процветание и инновации: создай уникальные системы и конструкции, которые будут сочетать магические и технологические элементы.</li>
+        </ul>
+        <p class="highlight-text" data-aos="fade-up" data-aos-delay="800">Готов ли ты раскрыть все секреты "The Age of Technomagic" Скачай лаунчер и вступай в это удивительное путешествие прямо сейчас!</p>
+        
+        <a href="launcher/launch.zip" class="download-button" target="_blank" data-aos="zoom-in">Скачать лаунчер Minecraft</a>
+        <a href="https://www.donationalerts.com/r/i_hate_blue_" class="donate-button" target="_blank" data-aos="zoom-in" data-aos-delay="200">Поддержать проект</a>
+        <a href="https://web.telegram.org/a/#8001035811" class="buy-pass-button" target="_blank" data-aos="zoom-in" data-aos-delay="400">Купить проходку</a>
+    </main>
+
+    <footer>
+        <p>© Сайтик создан для ютубера DIKTAFON</p>
+    </footer>
+</body>
+
+</html>
